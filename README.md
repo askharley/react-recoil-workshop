@@ -1,11 +1,9 @@
 # React Recoil Workshop
-​
+
 ## Table of Contents
-​
-* [Get Started](#get-started))
+* [Get Started](#get-started)
 * [Projects](#projects)
 * [How To Use This Workshop](#how-to-use-this-workshop)
-​
 ​
 ## Get Started
 
