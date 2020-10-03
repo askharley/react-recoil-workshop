@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Nav, NavItem, NavLink, TabContent, TabPane } from "reactstrap";
-import { Teams, Players } from "./tabs";
+import Teams from "./tabs/Teams";
+import Players from "./tabs/Players";
 
-export default function GameTabs() {
+function GameTabs() {
   const [activeTab, setActiveTab] = useState("1");
 
   const toggle = tab => {
@@ -34,3 +35,5 @@ function NavItemToggle({ title, onClick }) {
     </NavItem>
   );
 }
+
+export default GameTabs;

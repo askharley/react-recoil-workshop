@@ -4,7 +4,7 @@ import { teamColours } from "../../utils/constants";
 import { useRecoilValue, useRecoilState } from "recoil";
 import { teamListState, inputState } from "../../store/atoms";
 
-export default function Teams() {
+function Teams() {
   const [teamList, setTeamList] = useRecoilState(teamListState);
   const [teamName, setTeamName] = useRecoilState(inputState);
 
@@ -52,3 +52,5 @@ function TeamList() {
     </div>
   );
 }
+
+export default Teams;

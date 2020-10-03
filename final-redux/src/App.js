@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="App">
       <Jumbotron>
-        <h1 className="display-3">Discordia</h1>
+        <h1 className="display-3">Team Tracker</h1>
         <h4>
           <Row>
             <Col>Teams: {teamCount}</Col>

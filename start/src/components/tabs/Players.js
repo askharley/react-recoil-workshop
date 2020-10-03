@@ -3,7 +3,7 @@ import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
 import Select from "react-select";
 import { teamColours } from "../../utils/constants";
 
-export default function Players() {
+function Players() {
   const teamDictionary = [];
   const [playerName, setPlayerName] = useState("");
   const [playerTeam, setPlayerTeam] = useState();
@@ -49,3 +49,5 @@ function PlayerList() {
     </div>
   );
 }
+
+export default Players;

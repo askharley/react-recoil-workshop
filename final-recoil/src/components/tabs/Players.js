@@ -6,7 +6,7 @@ import { useRecoilValue, useRecoilState } from "recoil";
 import { playerListState, inputState } from "../../store/atoms";
 import { teamDictionaryState } from "../../store/selectors";
 
-export default function Players() {
+function Players() {
   const [playerList, setPlayerList] = useRecoilState(playerListState);
   const teamDictionary = useRecoilValue(teamDictionaryState);
   const [playerName, setPlayerName] = useRecoilState(inputState);
@@ -72,3 +72,5 @@ function PlayerList() {
     </div>
   );
 }
+
+export default Players;

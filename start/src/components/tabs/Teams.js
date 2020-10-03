@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
 import { teamColours } from "../../utils/constants";
 
-export default function Teams() {  
-  const [teamName, setTeamName] = useState();  
+function Teams() {
+  const [teamName, setTeamName] = useState();
 
   const addTeam = () => { };
 
@@ -38,3 +38,5 @@ function TeamList() {
     </div>
   );
 }
+
+export default Teams;
