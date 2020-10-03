@@ -4,30 +4,30 @@
 * [Get Started](#get-started)
 * [Projects](#projects)
 * [How To Use This Workshop](#how-to-use-this-workshop)
-​
+
 ## Get Started
 
 ### Clone Repo
 ```
 # clone the repo
 $ git clone git@github.com:askharley/react-recoil-workshop.git
-​
+
 # go into the repo root
 $ cd react-recoil-workshop
-​
+
 # go into the start project
 $ cd start
 ```
-​
+
 ### Install
 ```
 # install the dependencies
 $ npm i
-​
+
 # start the application
 $ npm start
 ```
-​
+
 ## Projects
 
 * [start](https://github.com/askharley/react-recoil-workshop/tree/main/start)
@@ -38,7 +38,7 @@ $ npm start
 
 * [start]()
 * [final-redux]()
-* [final-recoil](https://react-recoil-workshop-final-recoil.netlify.app/)[![Netlify Status](https://api.netlify.com/api/v1/badges/71a180da-fc6f-414d-8cb8-201cb7d9e161/deploy-status)](https://app.netlify.com/sites/react-recoil-workshop-final-recoil/deploys)
+* [final-recoil](https://react-recoil-workshop-final-recoil.netlify.app/) - [![Netlify Status](https://api.netlify.com/api/v1/badges/71a180da-fc6f-414d-8cb8-201cb7d9e161/deploy-status)](https://app.netlify.com/sites/react-recoil-workshop-final-recoil/deploys)
 
 
 ## How To Use This Workshop
