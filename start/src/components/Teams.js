@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
-import { teamColours } from "../../utils/constants";
+import { teamColours } from "../utils/constants";
 
 function Teams() {
   const [teamName, setTeamName] = useState();

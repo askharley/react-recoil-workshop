@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
 import Select from "react-select";
-import { teamColours } from "../../utils/constants";
+import { teamColours } from "../utils/constants";
 
 function Players() {
   const teamDictionary = [];
   const [playerName, setPlayerName] = useState("");
-  const [playerTeam, setPlayerTeam] = useState();
+  const [, setPlayerTeam] = useState();
 
   const addPlayer = () => { };
 

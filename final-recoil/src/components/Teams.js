@@ -1,8 +1,8 @@
 import React from "react";
-import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
-import { teamColours } from "../../utils/constants";
 import { useRecoilValue, useRecoilState } from "recoil";
-import { teamListState, inputState } from "../../store/atoms";
+import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
+import { teamColours } from "../utils/constants";
+import { teamListState, inputState } from "../store/atoms";
 
 function Teams() {
   const [teamList, setTeamList] = useRecoilState(teamListState);

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import { useRecoilValue, useRecoilState } from "recoil";
 import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
 import Select from "react-select";
-import { teamColours } from "../../utils/constants";
-import { useRecoilValue, useRecoilState } from "recoil";
-import { playerListState, inputState } from "../../store/atoms";
-import { teamDictionaryState } from "../../store/selectors";
+import { teamColours } from "../utils/constants";
+import { playerListState, inputState } from "../store/atoms";
+import { teamDictionaryState } from "../store/selectors";
 
 function Players() {
   const [playerList, setPlayerList] = useRecoilState(playerListState);

@@ -1,25 +1,14 @@
-import React, { useEffect } from "react";
-import GameTabs from "./components/GameTabs";
+import React from "react";
+import { useRecoilValue } from "recoil";
+import { Jumbotron, Card, CardBody, Row, Col } from "reactstrap";
 import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Jumbotron, Card, CardBody, Row, Col } from "reactstrap";
-import { useRecoilValue } from "recoil";
-import {
-  teamCountState,
-  playerCountState,
-} from "./store/selectors";
+import Tabs from "./components/Tabs";
+import { teamCountState, playerCountState } from "./store/selectors";
 
-export default function App() {
+function App() {
   const teamCount = useRecoilValue(teamCountState);
   const playerCount = useRecoilValue(playerCountState);
-
-  useEffect(() => {
-    console.log("Render - Teams");
-  }, [teamCount]);
-
-  useEffect(() => {
-    console.log("Render - Players");
-  }, [playerCount]);
 
   return (
     <div className="App">
@@ -34,9 +23,11 @@ export default function App() {
       </Jumbotron>
       <Card>
         <CardBody>
-          <GameTabs />
+          <Tabs />
         </CardBody>
       </Card>
     </div>
   );
 }
+
+export default App;
