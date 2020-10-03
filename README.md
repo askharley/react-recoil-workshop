@@ -30,9 +30,9 @@ $ npm start
 
 ## Projects
 
-* [start](https://github.com/askharley/react-recoil-workshop/tree/main/start)
-* [final-redux](https://github.com/askharley/react-recoil-workshop/tree/main/final-redux)
-* [final-recoil](https://github.com/askharley/react-recoil-workshop/tree/main/final-recoil)
+* [start](https://github.com/askharley/react-recoil-workshop/tree/main/start) - a starting place to begin your work
+* [final-redux](https://github.com/askharley/react-recoil-workshop/tree/main/final-redux) - an example of what a final implementation using Redux would look like
+* [final-recoil](https://github.com/askharley/react-recoil-workshop/tree/main/final-recoil) - an example of what a final implementation using Recoil would look like
 
 ## Deployments
 
@@ -43,4 +43,3 @@ $ npm start
 
 ## How To Use This Workshop
 - The slides can be found in PDF form. The slides outline what the current problems are with technologies like Redux and React Context. The slides also give an introduction to Recoil as well as show how to compose Recoil through code.
-- There are 3 projects within this repository: a starter project that has all the components setup but has no state management, the same project with finalize with a Redux implementation and then another project that is the final version but with Recoil for state management. The purpose of this is what it'll allow those who are familiar with Redux to draw from their experience and make direct comparisons with Recoil.
