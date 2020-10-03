@@ -30,9 +30,9 @@ $ npm start
 ​
 ## Projects
 
-* [start](https://github.com/haefele-software/react-recoil-workshop/tree/master/start)
-* [final-redux](https://github.com/haefele-software/react-recoil-workshop/tree/master/final-redux)
-* [final-recoil](https://github.com/haefele-software/react-recoil-workshop/tree/master/final-recoil)
+* [start](https://github.com/haefele-software/react-recoil-workshop/tree/main/start)
+* [final-redux](https://github.com/haefele-software/react-recoil-workshop/tree/main/final-redux)
+* [final-recoil](https://github.com/haefele-software/react-recoil-workshop/tree/main/final-recoil)
 ​
 ​
 ## How To Use This Workshop
