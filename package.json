@@ -4,6 +4,6 @@
   "scripts": {
     "build:start": "npm --prefix start run build",
     "build:final-redux": "npm --prefix final-redux run build",
-    "build:fina-recoil": "npm --prefix final-recoil run build"
+    "build:final-recoil": "npm --prefix final-recoil run build"
   }
 }
