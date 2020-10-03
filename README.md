@@ -36,8 +36,8 @@ $ npm start
 
 ## Deployments
 
-* [start]()
-* [final-redux]()
+* [start](https://react-recoil-workshop-final-start.netlify.app/) - [![Netlify Status](https://api.netlify.com/api/v1/badges/71a180da-fc6f-414d-8cb8-201cb7d9e161/deploy-status)](https://app.netlify.com/sites/react-recoil-workshop-start/deploys)
+* [final-redux](https://react-recoil-workshop-final-redux.netlify.app/) - [![Netlify Status](https://api.netlify.com/api/v1/badges/71a180da-fc6f-414d-8cb8-201cb7d9e161/deploy-status)](https://app.netlify.com/sites/react-recoil-workshop-final-redux/deploys)
 * [final-recoil](https://react-recoil-workshop-final-recoil.netlify.app/) - [![Netlify Status](https://api.netlify.com/api/v1/badges/71a180da-fc6f-414d-8cb8-201cb7d9e161/deploy-status)](https://app.netlify.com/sites/react-recoil-workshop-final-recoil/deploys)
 
 
