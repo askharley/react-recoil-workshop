@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import { Tabs } from "./components";
-import "./styles.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Jumbotron, Card, CardBody, Row, Col } from "reactstrap";
+import React from "react";
 import { useSelector } from "react-redux";
+import { Jumbotron, Card, CardBody, Row, Col } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.css";
+import Tabs from "./components/Tabs";
 
-export default function App() {
+function App() {
   const teamCount = useSelector(state => state.teams.length);
   const playerCount = useSelector(state => state.players.length);
 
@@ -28,3 +28,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

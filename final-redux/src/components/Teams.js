@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
-import { useDispatch, useSelector } from "react-redux";
-import { actionCreators } from "../../store";
-import { teamColours } from "../../utils/constants";
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Row, Col, Button, Input, ListGroupItem } from 'reactstrap';
+import { actionCreators } from '../store';
+import { teamColours } from '../utils/constants';
 
-export default function Teams() {
+function Teams() {
   const dispatch = useDispatch();
   const [teamName, setTeamName] = useState("");
 
@@ -44,3 +44,5 @@ function TeamList() {
     </div>
   );
 }
+
+export default Teams;

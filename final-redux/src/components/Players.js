@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Row, Col, Button, Input, ListGroupItem } from "reactstrap";
 import Select from "react-select";
 import { useDispatch, useSelector } from "react-redux";
-import { actionCreators } from "../../store";
-import { teamColours } from "../../utils/constants";
-import { createDictionary } from "../../utils/helpers";
+import { actionCreators } from "../store";
+import { teamColours } from "../utils/constants";
+import { createDictionary } from "../utils/helpers";
 
-export default function Players() {
+function Players() {
   const dispatch = useDispatch();
   const teams = useSelector(state => state.teams);
   const [playerName, setPlayerName] = useState("");
@@ -56,3 +56,5 @@ function PlayerList() {
     </div>
   );
 }
+
+export default Players;

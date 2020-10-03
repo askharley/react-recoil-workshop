@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Nav, NavItem, NavLink, TabContent, TabPane } from "reactstrap";
-import { Teams, Players } from "./tabs";
+import Teams from './Teams';
+import Players from './Players';
 
 export default function Tabs() {
   const [input, setInput] = useState("");
