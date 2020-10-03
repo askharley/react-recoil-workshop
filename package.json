@@ -1,0 +1,9 @@
+{
+  "name": "react-recoil-workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "build:start": "npm --prefix start run build",
+    "build:final-redux": "npm --prefix final-redux run build",
+    "build:fina-recoil": "npm --prefix final-recoil run build"
+  }
+}
