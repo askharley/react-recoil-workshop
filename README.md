@@ -30,9 +30,9 @@ $ npm start
 ​
 ## Projects
 
-* [discordia-empty-starter](https://github.com/haefele-software/react-recoil-workshop/tree/master/discordia-empty-start)
-* [discordia-redux-final](https://github.com/haefele-software/react-recoil-workshop/tree/master/discordia-redux-final)
-* [discordia-recoil-final](https://github.com/haefele-software/react-recoil-workshop/tree/master/discordia-recoil-final)
+* [start](https://github.com/haefele-software/react-recoil-workshop/tree/master/start)
+* [final-redux](https://github.com/haefele-software/react-recoil-workshop/tree/master/final-redux)
+* [final-recoil](https://github.com/haefele-software/react-recoil-workshop/tree/master/final-recoil)
 ​
 ​
 ## How To Use This Workshop
