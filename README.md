@@ -9,7 +9,7 @@
 
 ## 🎯 Goals
 
-- Learn why Redux is somewhat boilerplatey
+- Learn why Redux is somewhat boilerplatey and bloated
 - Learn the Recoil architecture
 - Learn some of the basic Recoil hooks
 - Refactor from a Redux state management implementation to a solely Recoil state management implementation
