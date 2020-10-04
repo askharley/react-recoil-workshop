@@ -9,6 +9,11 @@
 
 ## 🎯 Goals
 
+- Learn why Redux is somewhat boilerplatey
+- Learn the Recoil architecture
+- Learn some of the basic Recoil hooks
+- Refactor from a Redux state management implementation to a solely Recoil state management implementation
+
 ## ⚡ Get Started
 
 ### Clone Repo
@@ -16,7 +21,7 @@
 # clone the repo
 $ git clone git@github.com:askharley/react-recoil-workshop.git
 
-# go into the repo root
+# navigate into the repo root
 $ cd react-recoil-workshop
 
 # go into the start project
