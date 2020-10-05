@@ -1,5 +1,7 @@
 # React Recoil Workshop
 
+> A workshop to demonstrate how we can get rid of Redux and make use of Facebook's experimental new state management library, Redux.
+
 ## Table of Contents
 * [🎯 Goals](#goals)
 * [⚡ Get Started](#get-started)
