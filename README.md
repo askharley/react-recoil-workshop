@@ -53,4 +53,4 @@ $ npm start
 
 
 ## 🚀 How To Use This Workshop
-- The slides can be found in PDF form. The slides outline what the current problems are with technologies like Redux and React Context. The slides also give an introduction to Recoil as well as show how to compose Recoil through code.
+
